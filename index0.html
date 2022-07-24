@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/94d1d08c84.js" crossorigin="anonymous"></script>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header class="container-fluid " >
+        <nav class="container-fluid navbar navbar-expand-lg bg-white p-4 ">
+            <div class="container-fluid d-flex justify-content-between ">
+              <a class="navbar-brand fw-bold" href="#">Abacus Convention Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class=" collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-semibold  ">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#">About US</a>
+                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- banner section -->    
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide container-fluid data-bs-ride="false">
+                <div class="carousel-indicators  ">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner container-fluid ">
+                  <div class="carousel-item border-0 active container-fluid ">
+                    <img src="images/banner.png" class="image-height w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="">The perfect venue for your next event</h1>
+                        <p class=" opacity-75" >Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                      <a class="mb-4 btn bg-white text-primary fw-semibold px-4" href="#" role="button">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item border-0 container-fluid ">
+                    <img src="/images/download.png" class=" image-height d-block w-100  " alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="">The perfect venue for your next event</h1>
+                        <p class=" opacity-75" >Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                      <a class="mb-4 btn bg-white text-primary fw-semibold px-4" href="#" role="button">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item border-0 container-fluid">
+                    <img src="images/istockphoto-1190043570-612x612.jpg" class="image-height d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h1 class="">The perfect venue for your next event</h1>
+                        <p class=" opacity-75" >Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                      <a class="mb-4 btn bg-white text-primary fw-semibold px-4" href="#" role="button">Book Now</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item border-0 container-fluid">
+                    <img src="images/images.jpg" class="image-height d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h1 class="">The perfect venue for your next event</h1>
+                        <p class=" opacity-75" >Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                      <a class="mb-4 btn bg-white text-primary fw-semibold px-4" href="#" role="button">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+                
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button"         data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>  
+            </div>
+        </section>
+        
+        <!-- wadding section -->
+        <section>
+            <div class="container">
+                <div style="margin-top:100px;" class=" container-fluid row flex-column-reverse flex-lg-row align-items-center position-a " >
+                    <div class=" container-fluid col-sm-1 col-lg-6">
+                        <img class="img-fluid me-5"  src="/images/wedding.png" alt="">
+                        <div class="mt-4 text-center d-lg-none">
+                            <a class="btn btn-primary border border-1" href="#" role="button">Explore our album <i class=" ms-2 fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="container-fluid col-sm-1 col-lg-6 position-relative ">
+                        <h1 class="fw-bold display-6">Every moment is Precious </h1>
+                        <div class=" d-none d-lg-inline toast text-dark fade show  shadow rounded-0 " style="width:250px; border-left: 10px solid rgb(0, 98, 225); margin-left: 380px; margin-top: -50px; position: absolute; ">
+                            <div class="toast-header  text-lite bg-lite border-0 ">
+                                <strong class="m-auto "> 20% off on next booking</strong>
+                                <button style="margin-top: -20px; margin-right: -10px; font-size: 10px;" type="button" class="btn-close btn-close-dark " data-bs-dismiss="toast"></button>
+                            </div>    
+                          </div>
+                        <p class="fw-bold opacity-75 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nam doloribus perspiciatis nemo. Voluptatibus natus, iure illo provident quo incidunt, totam, tempore sed laborum rem nisi. Iure repellat cum aut.</p>           
+                       <div class=" d-lg-inline d-none">
+                            <a class="btn btn-primary rounded-0 " href="#" role="button">Explore our album <i class=" ms-2 fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </section>
+     
+     <!-- packeg section -->
+        <section>
+
+            <!-- card-one -->
+                <div class="container-fluid " >
+                    <div class="container mt-5 ">
+                        <h1 class="fw-bold text-center mt-5 pt-5 mb-5">Our package</h1>
+                        <div class="row mt-5 pt-5 ">
+                            <div class="container-fluid col-sm-1 col-lg-3 ">
+                                <div class="card rounded rounded-5 border-0 h-150  " >
+                                    <div class="card-body  mb-5  " >
+                                        <div class=" ps-3 pt-5 ">
+                                            <h1 class="card-title">$800</h1>
+                                            <h3>Wedding plus</h3>
+                                            <p class="card-text">For most weddings with premium plans</p>
+                                        
+                                        </div>
+                                        <ul class=" list-group list-group-flush ">                                
+                                            <li class="list-group-item border-0 ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-10 text-dark p-1 rounded-circle me-2"></i>Full space access
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>Dedicated team
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>Buffet food
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>premium Decoration
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>pay as plan
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center   ">
+                                            <button class="btn  bg-secondary bg-opacity-10 text-primary fw-bold container-fluid " style="border-radius:30px">Choose plan</button>
+                                           </div>                                        
+                                    </div>  
+                                     
+                                </div>
+                            </div>
+                <!-- card-two -->
+                            <div class="container-fluid col-sm-1 col-lg-3  ">
+                                <div class="card rounded rounded-5 border-0  h-150  ">
+                                    <div class="card-body  mb-5 ">
+                                        <div class=" ps-3 pt-5 ">
+                                            <h1 class="card-title">$800</h1>
+                                            <h3>Wedding plus</h3>
+                                            <p class="card-text">For most weddings with premium plans</p>
+                                        
+                                        </div>
+                                        <ul class=" list-group list-group-flush ">                                
+                                            <li class="list-group-item border-0 ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-10 text-dark p-1 rounded-circle me-2"></i>Full space access
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>Dedicated team
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>Buffet food
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>premium Decoration
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>pay as plan
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center   ">
+                                            <button class="btn  bg-secondary bg-opacity-10 text-primary fw-bold container-fluid " style="border-radius:30px">Choose plan</button>
+                                           </div>                                        
+                                    </div>  
+                                     
+                                </div>
+                            </div>
+
+                <!-- card-three -->
+
+
+                            <div class="container-fluid col-sm-1 col-lg-3 ">
+                                <div class="card rounded rounded-5 border-0 bg-primary bg-opacity-75 text-white h-150 shadow ">
+                                    <div class="card-body ">
+                                        <div class=" ps-3 pt-0">
+                                            <h1 class="card-title">$800</h1>
+                                            <h3>Wedding plus</h3>
+                                            <p class="card-text">For most weddings with premium plans</p>
+                                            <div class="position-absolute d-none d-lg-inline ">
+                                                <p class="bg-danger text-white py-1 px-3 fw-bold rounded-4 text-center" style="margin-left:130px; margin-top:-190px;" >Hot</p>
+                                            </div> 
+                                        </div>
+                                        <ul class=" list-group list-group-flush ">                                
+                                            <li class="list-group-item border-0 bg-primary bg-opacity-10  text-white ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-white p-1 rounded-circle me-2"></i>Full space access
+                                            </li>
+                                            <li class="list-group-item border-0 bg-primary bg-opacity-10  text-white ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-white p-1 rounded-circle me-2"></i>Dedicated team
+                                            </li>
+                                            <li class="list-group-item border-0 bg-primary bg-opacity-10  text-white ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-white p-1 rounded-circle me-2"></i>Buffet food
+                                            </li>
+                                            <li class="list-group-item border-0 bg-primary bg-opacity-10  text-white ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-white p-1 rounded-circle me-2"></i>premium Decoration
+                                            </li>
+                                            <li class="list-group-item border-0 bg-primary bg-opacity-10  text-white ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-white p-1 rounded-circle me-2"></i>pay as plan
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center   ">
+                                            <button class="btn  bg-white text-primary fw-bold container-fluid " style="border-radius:30px">Choose plan</button>
+                                        </div>
+                                    </div>  
+                                    
+                                      
+                                </div>
+                            </div>
+
+
+                    <!-- card-four -->
+
+
+
+                            <div class="container-fluid col-sm-1 col-lg-3  ">
+                                <div class="card rounded rounded-5 border-0  h-150 ">
+                                    <div class="card-body mt-2 ">
+                                        <div class=" ps-3 pt-5 ">
+                                            <h1 class="card-title">$800</h1>
+                                            <h3>Wedding plus</h3>
+                                            <p class="card-text">For most weddings with premium plans</p>
+                                        
+                                        </div>
+                                        <ul class=" list-group list-group-flush ">                                
+                                            <li class="list-group-item border-0 ">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-10 text-dark p-1 rounded-circle me-2"></i>Full space access
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>Dedicated team
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>Buffet food
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>premium Decoration
+                                            </li>
+                                            <li class="list-group-item border-0">
+                                            <i class="fa-solid fa-check bg-primary bg-opacity-25 text-dark p-1 rounded-circle me-2"></i>pay as plan
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center   ">
+                                            <button class="btn  bg-secondary bg-opacity-10 text-primary fw-bold container-fluid " style="border-radius:30px">Choose plan</button>
+                                           </div>                                        
+                                    </div>  
+                                     
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- client section -->
+        <section>
+            <div class="container-fluid ">
+                <div class=" container   ">
+                    <h1 class="text-center mt-5 pt-5">Happy Clients says</h1>
+                    <div class="row mt-5 pt-5  ">
+                        <div class="col-lg-4 col-sm-1 mb-5 ">
+                            <div class="card rounded-3 border-0 text-center shadow p-4 " style="height:350px; ">
+                                <p class="fs-5 ">Slate helps you see how many more days you to work to reach your financial goal for the month and year.</p>
+                                <img class="img-fluid align-self-center my-2  " width="100px" src="/images/person 1.png" alt="">
+                                <h6 class="fw-bold">Regina Miles</h6>
+                                <span>Banker</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-1 mb-5">
+                            <div class="card rounded-3 border-0 text-center shadow p-4 " style="height:350px; ">
+                                <p class="fs-5 ">Slate helps you see how many more days you to work to reach your financial goal for the month and year.</p>
+                                <img class="img-fluid align-self-center my-2  " width="100px" src="/images/person 1.png" alt="">
+                                <h6 class="fw-bold">Regina Miles</h6>
+                                <span>Banker</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-1 mb-5">
+                            <div class="card rounded-3 border-0 text-center shadow p-4 " style="height:350px; ">
+                                <p class="fs-5 ">Slate helps you see how many more days you to work to reach your financial goal for the month and year.</p>
+                                <img class="img-fluid align-self-center my-2 " width="100px" src="/images/person 1.png" alt="">
+                                <h6 class="fw-bold">Regina Miles</h6>
+                                <span>Banker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- qustion sectin -->
+        <section>
+            <div class="container">
+                <div class="container-fluid row d-flex flex-column-reverse flex-lg-row mb-5  ">
+                    <h1 class="text-center fw-bold mt-5 pb-5 d-none d-lg-inline">Frequently Asked Questions</h1>
+                    <div class="accordion container-fluid col-sm-1 col-lg-6" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      
+
+                    <div class="container-fluid col-sm-1 col-lg-6">
+                        <h1 class="text-center fw-bold mt-5 pb-5  d-sm-inline d-lg-none">Frequently Asked Questions</h1>
+                        <img class="img-fluid" src="images/people.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            
+
+        </section>
+  
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container-fluid bg-dark text-white " >
+            <div class="  container d-flex justify-content-between align-items-center " style="height: 250px;">
+                <span>
+                    © 2020 bike. All rights reserved
+                </span>
+                <div>
+                    <h5 class="fw-light text-info text-opacity-75">Get the App</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
